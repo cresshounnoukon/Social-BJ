@@ -110,7 +110,7 @@ width: MediaQuery.of(context).size.width*0.8,
                         )
                       ),
                       child: Column(
-                        children: [
+                        children: const [
                           Icon(Icons.copy)
                         ],
                       ),
@@ -157,7 +157,7 @@ width: MediaQuery.of(context).size.width*0.8,
                           )
                       ),
                       child: Column(
-                        children: [
+                        children: const [
                           Icon(Icons.copy)
                         ],
                       ),
@@ -170,8 +170,8 @@ width: MediaQuery.of(context).size.width*0.8,
         ),
       ),
       bottomNavigationBar: NavigationBar(
-        backgroundColor: Theme.of(context).primaryColor,
-        destinations: [
+        //backgroundColor: Theme.of(context).primaryColor,
+        destinations: const [
           NavigationDestination(icon: Icon(Icons.home_outlined), label: "Home"),
           NavigationDestination(
               icon: Icon(Icons.message_outlined), label: "Message"),
