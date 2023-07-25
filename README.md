@@ -1,6 +1,8 @@
 # Social BJ App - Flutter Project
 
-![Simulator Screenshot - iPhone 14 Pro Max - 2023-07-25 at 09.14.13.png](screenshots/Simulator%20Screenshot%20-%20iPhone%2014%20Pro%20Max%20-%202023-07-25%20at%2009.14.13.png)
+<img  title="Social App" src="screenshots/1.png" alt= “” width="50%" height="500">
+
+
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -12,18 +14,20 @@
 - [License](#license)
 - [Contact](#contact)
 ## Screeshots
-![Simulator Screenshot - iPhone 14 Pro Max - 2023-07-25 at 09.14.13.png](screenshots/Simulator%20Screenshot%20-%20iPhone%2014%20Pro%20Max%20-%202023-07-25%20at%2009.14.13.png)  
-![Simulator Screenshot - iPhone 14 Pro Max - 2023-07-25 at 09.14.17.png](screenshots/Simulator%20Screenshot%20-%20iPhone%2014%20Pro%20Max%20-%202023-07-25%20at%2009.14.17.png)  
-![Simulator Screenshot - iPhone 14 Pro Max - 2023-07-25 at 09.14.19.png](screenshots/Simulator%20Screenshot%20-%20iPhone%2014%20Pro%20Max%20-%202023-07-25%20at%2009.14.19.png)  
-![Simulator Screenshot - iPhone 14 Pro Max - 2023-07-25 at 09.14.22.png](screenshots/Simulator%20Screenshot%20-%20iPhone%2014%20Pro%20Max%20-%202023-07-25%20at%2009.14.22.png)  
-![Simulator Screenshot - iPhone 14 Pro Max - 2023-07-25 at 09.14.26.png](screenshots/Simulator%20Screenshot%20-%20iPhone%2014%20Pro%20Max%20-%202023-07-25%20at%2009.14.26.png)  
-![Simulator Screenshot - iPhone 14 Pro Max - 2023-07-25 at 09.14.32.png](screenshots/Simulator%20Screenshot%20-%20iPhone%2014%20Pro%20Max%20-%202023-07-25%20at%2009.14.32.png)  
-![Simulator Screenshot - iPhone 14 Pro Max - 2023-07-25 at 09.14.41.png](screenshots/Simulator%20Screenshot%20-%20iPhone%2014%20Pro%20Max%20-%202023-07-25%20at%2009.14.41.png)  
-![Simulator Screenshot - iPhone 14 Pro Max - 2023-07-25 at 09.14.58.png](screenshots/Simulator%20Screenshot%20-%20iPhone%2014%20Pro%20Max%20-%202023-07-25%20at%2009.14.58.png)  
-![Simulator Screenshot - iPhone 14 Pro Max - 2023-07-25 at 09.15.03.png](screenshots/Simulator%20Screenshot%20-%20iPhone%2014%20Pro%20Max%20-%202023-07-25%20at%2009.15.03.png)Simulator Screenshot - iPhone 14 Pro Max - 2023-07-25 at 09.15.12.png  
-![Simulator Screenshot - iPhone 14 Pro Max - 2023-07-25 at 09.15.25.png](screenshots/Simulator%20Screenshot%20-%20iPhone%2014%20Pro%20Max%20-%202023-07-25%20at%2009.15.25.png)  
-![Simulator Screenshot - iPhone 14 Pro Max - 2023-07-25 at 09.15.31.png](screenshots/Simulator%20Screenshot%20-%20iPhone%2014%20Pro%20Max%20-%202023-07-25%20at%2009.15.31.png)  
-![Simulator Screenshot - iPhone 14 Pro Max - 2023-07-25 at 09.20.29.png](screenshots/Simulator%20Screenshot%20-%20iPhone%2014%20Pro%20Max%20-%202023-07-25%20at%2009.20.29.png)
+<img src="screenshots/1.png" alt= “” width="50%" height="500">
+<img src="screenshots/2.png" alt= “” width="50%" height="500">
+<img src="screenshots/3.png" alt= “” width="50%" height="500">
+<img src="screenshots/4.png" alt= “” width="50%" height="500"><br>
+<img src="screenshots/5.png" alt= “” width="50%" height="500">
+<img src="screenshots/6.png" alt= “” width="50%" height="500">
+<img src="screenshots/7.png" alt= “” width="50%" height="500">
+<img src="screenshots/8.png" alt= “” width="50%" height="500"><br>
+<img src="screenshots/9.png" alt= “” width="50%" height="500">
+<img src="screenshots/10.png" alt= “” width="50%" height="500">
+<img src="screenshots/11.png" alt= “” width="50%" height="500">
+<img src="screenshots/12.png" alt= “” width="50%" height="500"><br>
+<img src="screenshots/13.png" alt= “” width="50%" height="500">
+
 
 ## Introduction
 
