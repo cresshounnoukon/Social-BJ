@@ -51,7 +51,7 @@ class _FeedFormScreenState extends State<FeedFormScreen> {
                           ListTile(
                             leading:   CircleAvatar(
                               backgroundImage:
-                                  AssetImage("assets/images/onboarding/3.jpg"),
+                                  AssetImage("assets/images/onboarding/3.png"),
                             ),
                             contentPadding: EdgeInsets.zero,
                             title:   Text("Cress HOUNNOUKON"),
@@ -62,7 +62,7 @@ class _FeedFormScreenState extends State<FeedFormScreen> {
                                 label:   Text("Public")),
                           ),
                             SizedBox(
-                            height: 5,
+                            height: XPadding,
                           ),
                           Container(
                             height: 200,
@@ -72,7 +72,7 @@ class _FeedFormScreenState extends State<FeedFormScreen> {
                               shrinkWrap: true,
                               scrollDirection: Axis.horizontal,
                               children: List.generate(4, (index){
-                                String name="assets/images/onboarding/${index+1}.jpg";
+                                String name="assets/images/onboarding/${index+1}.png";
                                 return Container(
                                   height: 200,
                                   padding:  EdgeInsets.symmetric(vertical: 5, horizontal: 8),
@@ -138,6 +138,7 @@ class _FeedFormScreenState extends State<FeedFormScreen> {
 
                             ),
                           ),
+                          SizedBox(height: XPadding,),
                           TextFormField(
                             scrollPadding: EdgeInsets.zero,
                             maxLines: 4,
