@@ -18,7 +18,6 @@
 ![Screenshot 2023-07-25 at 12.06.59.png](screenshots/Screenshot%202023-07-25%20at%2012.06.59.png)  
 ![Screenshot 2023-07-25 at 12.07.17.png](screenshots/Screenshot%202023-07-25%20at%2012.07.17.png)  
 ![Screenshot 2023-07-25 at 12.07.30.png](screenshots/Screenshot%202023-07-25%20at%2012.07.30.png)  
-![Screenshot 2023-07-25 at 12.07.42.png](screenshots/Screenshot%202023-07-25%20at%2012.07.42.png)  
 ![Screenshot 2023-07-25 at 12.08.08.png](screenshots/Screenshot%202023-07-25%20at%2012.08.08.png)  
 ![Screenshot 2023-07-25 at 12.08.26.png](screenshots/Screenshot%202023-07-25%20at%2012.08.26.png)  
 ![Screenshot 2023-07-25 at 12.08.44.png](screenshots/Screenshot%202023-07-25%20at%2012.08.44.png)  
