@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../utils/default_values.dart';
+
 class SectionTitle extends StatelessWidget {
   final String title;
   final String ?description  ;
@@ -12,12 +14,13 @@ class SectionTitle extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text("$title", style: Theme.of(context).textTheme.headlineLarge!.copyWith(
+          Text("$title", style: Theme.of(context).textTheme. headlineLarge!.copyWith(
             fontWeight: FontWeight.bold,
-            color:Colors.black
-          ),),
+
+
+          )),
           SizedBox(
-            height: 10,
+            height:  XPadding,
           ),
           Text("$description", style: Theme.of(context).textTheme.bodyLarge!.copyWith(
              color: Colors.grey

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class InputComponent extends StatelessWidget {
   final IconData? icon;
-  final IconData? suffixIcon;
+  final Widget? suffixIcon;
   final String? placeHolder;
   final void Function()? onTap;
   final void Function(String)? onChanged;
@@ -48,7 +48,7 @@ class InputComponent extends StatelessWidget {
         prefixIcon: Icon(
           icon,
         ),
-        suffixIcon: Icon(suffixIcon),
+        suffixIcon: suffixIcon,
 
       ),
     );

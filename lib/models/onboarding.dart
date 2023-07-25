@@ -1,7 +1,15 @@
-class Onboarding {
-  String? title;
-  String? description;
-  String? image;
+import 'package:flutter/cupertino.dart';
 
-  Onboarding({required this.title, this.description, required this.image});
+class Onboarding {
+  final String? title;
+  final String? description;
+  final String image;
+
+  final IconData? iconData;
+
+  Onboarding(
+      {required this.title,
+      this.description,
+      required this.image,
+      this.iconData});
 }
