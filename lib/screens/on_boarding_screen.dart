@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutterwithfirebase/screens/main_screen.dart';
-import 'package:flutterwithfirebase/utils/default_values.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+
 import '../components/dot_indicator.dart';
 import '../components/onboarding_component.dart';
-import '../components/x_button_component.dart';
 import '../models/onboarding.dart';
+import '../services/shared_preferences.dart';
+import '../style/default_values.dart';
 import 'auth/registration_screen.dart';
 
 class OnBoardingScreen extends StatefulWidget {
@@ -39,21 +38,28 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
 
   @override
   void initState() {
+
     super.initState();
+  }
+  @override
+  void didChangeDependencies() {
+
+    super.didChangeDependencies();
   }
 
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
       extendBodyBehindAppBar: true,
+      resizeToAvoidBottomInset: true,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
         actions: [
           TextButton(
-              onPressed: () async {
-                print(currentPage);
-                _gotoRegistration();
+              onPressed: () {
+                _setOnboardingDoneAndGotoRegistration();
               },
               child: Text(
                 "Ignorer".toUpperCase(),
@@ -79,8 +85,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
               Row(
                 children: List.generate(
                     onboardings.length,
-                        (index) =>
-                        DotIndicator(
+                    (index) => DotIndicator(
                           isActive: index == currentPage,
                         )).toList(),
               ),
@@ -89,28 +94,33 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
         ),
       ]),
       floatingActionButton: currentPage == onboardings.length - 1
-          ? FloatingActionButton(onPressed: () {
-        Navigator.pushAndRemoveUntil(context,
-            MaterialPageRoute(builder: (context) => RegistrationScreen(),), (
-                route) => false);
-      }, child: Icon(Icons.start),)
+          ? FloatingActionButton(
+              onPressed: () {
+                _setOnboardingDoneAndGotoRegistration();
+              },
+              child: Icon(Icons.navigate_next),
+            )
           : null,
     );
   }
 
   void _gotoRegistration() async {
-    await _saveEscapeOnBoarding();
-    if (currentPage == onboardings.length - 1) {
-      Navigator.pushAndRemoveUntil(
-          context,
-          MaterialPageRoute(builder: (context) => MainScreen()),
-              (route) => false);
-    }
+    Navigator.pushAndRemoveUntil(
+        context,
+        MaterialPageRoute(builder: (context) => RegistrationScreen()),
+        (route) => false);
   }
 
-  _saveEscapeOnBoarding() async {
-    // Obtain shared preferences.
-    final SharedPreferences prefs = await SharedPreferences.getInstance();
-    await prefs.setBool(ONBORDING, true);
+  void _setOnboardingDoneAndGotoRegistration() async {
+    await XPreference.saveEscapeOnBoarding();
+    _gotoRegistration();
+  }
+
+  decideActionOnInit() async {
+  bool? value= await  XPreference.isYetEscapeOnBoarding();
+      if (value!) {
+        _gotoRegistration();
+      }
+
   }
 }

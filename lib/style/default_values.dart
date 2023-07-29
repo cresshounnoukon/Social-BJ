@@ -4,6 +4,7 @@ double XPadding = 10;
 Color XColorWhite = Colors.white;
 
 const ONBORDING = "ONBORDING";
+
 final XLineaGradient = LinearGradient(
     begin: Alignment.topCenter,
     end: Alignment.bottomCenter,
@@ -27,7 +28,7 @@ final XLineaGradientBeninMap = LinearGradient(
       Colors.red.withOpacity(.5),
 //  Colors.white.withOpacity(.5),
     ]);
-final XLineaGradientBeninMapDark = LinearGradient(
+const XLineaGradientBeninMapDark = LinearGradient(
     begin: Alignment.bottomLeft,
     end: Alignment.centerRight,
     colors: [

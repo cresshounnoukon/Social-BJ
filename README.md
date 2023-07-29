@@ -7,25 +7,12 @@
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [How to Use](#how-to-use)
+
 - [Contributing](#contributing)
-- [License](#license)
+
 - [Contact](#contact)
 ## Screeshots
-
-![Screenshot 2023-07-25 at 12.06.34.png](screenshots/Screenshot%202023-07-25%20at%2012.06.34.png)  
-![Screenshot 2023-07-25 at 12.06.49.png](screenshots/Screenshot%202023-07-25%20at%2012.06.49.png)  
-![Screenshot 2023-07-25 at 12.06.59.png](screenshots/Screenshot%202023-07-25%20at%2012.06.59.png)  
-![Screenshot 2023-07-25 at 12.07.17.png](screenshots/Screenshot%202023-07-25%20at%2012.07.17.png)  
-![Screenshot 2023-07-25 at 12.07.30.png](screenshots/Screenshot%202023-07-25%20at%2012.07.30.png)  
-![Screenshot 2023-07-25 at 12.08.08.png](screenshots/Screenshot%202023-07-25%20at%2012.08.08.png)  
-![Screenshot 2023-07-25 at 12.08.26.png](screenshots/Screenshot%202023-07-25%20at%2012.08.26.png)  
-![Screenshot 2023-07-25 at 12.08.44.png](screenshots/Screenshot%202023-07-25%20at%2012.08.44.png)  
-![Screenshot 2023-07-25 at 12.09.02.png](screenshots/Screenshot%202023-07-25%20at%2012.09.02.png)  
-![Screenshot 2023-07-25 at 12.09.25.png](screenshots/Screenshot%202023-07-25%20at%2012.09.25.png)  
-![Screenshot 2023-07-25 at 12.09.56.png](screenshots/Screenshot%202023-07-25%20at%2012.09.56.png)  
-![Screenshot 2023-07-25 at 12.10.24.png](screenshots/Screenshot%202023-07-25%20at%2012.10.24.png)
-
+ comming soon
 ## Introduction
 
 Welcome to the Social BJ App repository! This is a Flutter-based social media application specifically designed for the people of Benin (Beninese). The app aims to create a community-driven platform where users can connect, share content, and interact with each other in a culturally relevant and user-friendly environment.

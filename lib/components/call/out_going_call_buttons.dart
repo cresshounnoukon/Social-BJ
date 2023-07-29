@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../utils/default_values.dart';
+import '../../style/default_values.dart';
 
 class OutGoingCallButton extends StatelessWidget {
   const OutGoingCallButton({super.key});

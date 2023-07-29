@@ -39,7 +39,7 @@ class _ChatListScreenState extends State<ChatListScreen> {
               padding: const EdgeInsets.all(10),
               margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 0),
               decoration: BoxDecoration(
-                  color: const Color(0xFFEEEEEE),
+                  color: Theme.of(context).colorScheme.secondaryContainer,
                   borderRadius: BorderRadius.circular(15)),
               child: const Row(
                 children: [

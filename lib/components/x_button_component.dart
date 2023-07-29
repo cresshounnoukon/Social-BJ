@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutterwithfirebase/utils/default_values.dart';
+
+import '../style/default_values.dart';
 
 class XButton extends StatelessWidget {
   final String? title;

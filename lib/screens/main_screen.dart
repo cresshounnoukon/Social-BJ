@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterwithfirebase/components/feed_component.dart';
-import 'package:flutterwithfirebase/components/profile_circle_item_component.dart';
+import 'package:flutterwithfirebase/components/x_circle_avatar_profile.dart';
 import 'package:flutterwithfirebase/screens/feed_form_screen.dart';
 import 'package:flutterwithfirebase/screens/home/home_screen.dart';
 import 'package:flutterwithfirebase/screens/chat/chat_screen.dart';

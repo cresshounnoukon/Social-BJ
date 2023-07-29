@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutterwithfirebase/utils/default_values.dart';
-
 import '../models/onboarding.dart';
+import '../style/default_values.dart';
 
 class OnBoardingComponent extends StatelessWidget {
   final Onboarding onboarding;

@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutterwithfirebase/components/feed_component.dart';
-import 'package:flutterwithfirebase/components/profile_circle_item_component.dart';
+import 'package:flutterwithfirebase/components/x_circle_avatar_profile.dart';
 import 'package:flutterwithfirebase/screens/status/status_screen.dart';
 
-import '../../utils/default_values.dart';
+
+import '../../style/default_values.dart';
 import '../feed_form_screen.dart';
 
 
@@ -37,7 +38,12 @@ class _HomeScreenState extends State<HomeScreen> {
                 )),
             IconButton(
                 onPressed: () {},
-                icon:   Icon(Icons.notifications_none_outlined, size: 25))
+                icon:   Icon(Icons.notifications_none_outlined, size: 25)),
+            IconButton(
+                onPressed: () {},
+                icon:   Icon(Icons.settings_outlined, size: 25))
+
+
           ],
         ),
         body: SingleChildScrollView(
@@ -48,6 +54,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               Container(
                 height: XPadding*11,
+
                 padding:   EdgeInsets.only(left: XPadding),
                 child: ListView.builder(
                   scrollDirection: Axis.horizontal,
@@ -58,7 +65,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           Navigator.push(context, MaterialPageRoute(
                             builder: (context) => StatusScreen(), fullscreenDialog: true));
                         },
-                        child:   ProfileCirleComponent(),
+                        child:   XCircleAvatar(),
                       ),
                 ),
               ),
